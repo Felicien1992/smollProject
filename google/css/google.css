@@ -235,15 +235,21 @@ main {
 
 /*================MEDIAQUERY========================*/
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 950px) {
+
     .grand {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .un {
         display: grid;
-        justify-content: center;
-        margin-top: -40px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .deux {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .un div {
@@ -255,10 +261,14 @@ main {
         margin-top: 50px;
     }
 
+    .un {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     .deux {
         display: grid;
-        justify-content: center;
-        margin-top: -40px;
+        grid-template-columns: 1fr 1fr;
     }
 
     .deux div {
@@ -271,12 +281,27 @@ main {
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     #input {
         width: 500px;
     }
 
     #input input {
         width: 340px;
+    }
+
+    .grand {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .un {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .deux {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
